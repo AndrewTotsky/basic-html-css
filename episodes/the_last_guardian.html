@@ -3,11 +3,21 @@
     <head>
         <title>"Части Индиана Джонс"</title>
     </head>
-    <body>
+    <header style="text-align: center">
+        <img width="100" height="100" src="../assets/he-man.jpg" alt="He-Man" title="He-Man"></br>
+        <nav>
+            <a href ="../index.html" target="_blank">Главная</a> 
+           | <a href ="../IndianaJones.html" target="_blank">Эпизоды</a>
+           | <a href ="../heroes/heroes.html" target="_blank">Герои</a>
+           | <a href ="../galaxy_map.html" target="_blank">Карта галактики</a>
+           | <a href ="../history.html" target="_blank">Истории</a>
+        </nav>
+    </header>
+    <body bgcolor=#fff5e8>
         <h1 align="center">
                     Фильмы о Индана Джонс
         </h1>
-        <a href ="../index.html">back</a>
+        <a href ="../IndianaJones.html" target="_blank">back</a>
         <p>
             <h3>
                 Indiana Jones and the Last Crusade
@@ -20,7 +30,12 @@
                 Год выпуска:
             </b>
                 1989<br/>
-            <img src="../assets/the_last_guardian_poster.jpg" alt="Indiana Jones and the Last Crusade"></br>
+            <img
+                src="../assets/the_last_guardian_poster.jpg"
+                alt="Indiana Jones and the Last Crusade"
+                style="border-radius: 10px"
+                title="Indiana Jones and the Last Crusadem"
+            ></br>
             <b>
                 Описание:
             </b>
@@ -31,10 +46,29 @@
             Генри Джонс-старший, роль которого сыграл Шон Коннери — дуэт отца и сына создаёт множество 
             комичных ситуаций в фильме.<br/>
         </p>
+        <div>
+            Оставить отзыв
+            </br>
+            <label for="name">Имя</label>
+            <input type="text" placeholder="Имя" id="name"/>
+            </br>
+            <label for="review">Отзыв</label>
+            <textarea id="review" placeholder="Рецензия к фильму..."></textarea>
+            </br>
+            <label for="stars">Оценка</label>
+            <input type="radio" value="1" name="stars"/>1
+            <input type="radio" value="2" name="stars"/>2
+            <input type="radio" value="3" name="stars"/>3
+            <input type="radio" value="4" name="stars"/>4
+            <input type="radio" value="5" name="stars"/>5
+            </br>
+            <input type="button" value="Отправить"/>
+        </div>
     </body>
-    <hr>
     <footer>
-            Design by Incubator 3.0
+        <hr>
+        Copyright &copy; 2018 Indiana Jones</br>
+        Design by Incubator 3.0
     </footer>
 </html>
 
