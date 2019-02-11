@@ -1,6 +1,6 @@
 The MIT License
 
-Copyright (c) 2019 Basic HTML/CSS, Inc. localhost:3000
+Copyright &copy; 2019 Indiana Jones, Inc. localhost:3000
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
