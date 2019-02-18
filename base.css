@@ -1,0 +1,22 @@
+.header {
+    text-align: center;
+}
+
+.header__logo {
+    width: 100px;
+    height: 100px;
+}
+
+.menu {
+    font-style: italic;
+    font-size: larger;
+    font-variant: titling-caps;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.body {
+    background-color: #fff5e8;
+    background-image: url(./assets/599088.jpg);
+    background-repeat: no-repeat;
+}

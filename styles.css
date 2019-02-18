@@ -1,0 +1,18 @@
+.body_centred {
+    text-align: center;
+}
+
+.body__main-img {
+    border-radius: 50%;
+    width: 400px;
+    height: 260px;
+}
+
+.body__img-poster-part {
+    border-radius: 10px
+}
+
+.body__img-screen-shot {
+    height:150px;
+    border-radius: 10px;
+}

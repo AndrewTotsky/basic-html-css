@@ -2,35 +2,40 @@
 <html>
     <head>
         <title>"Части Индиана Джонс"</title>
+        <link rel="stylesheet" type="text/css" href="./base.css">
+        <link rel="stylesheet" type="text/css" href="./styles.css">
     </head>
-    <header style="text-align: center">
-        <img width="100" height="100" src="./assets/he-man.jpg" alt="He-Man" title="He-Man"><br>
-        <nav>
+    <header class="header">
+        <a href ="./index.html" target="_blank">
+            <img class="header__logo"
+                src="./assets/he-man.jpg"
+                alt="He-Man"
+                title="He-Man"
+            ><br>
+        </a>
+        <nav class="menu">
             <a href ="./index.html" target="_blank">Главная</a> 
-           | <a href ="./parts/indiana_jones_ep_list.html" target="_blank">Эпизоды</a>
-           | <a href ="./heroes/heroes.html" target="_blank">Герои</a>
-           | <a href ="./galaxy_map/galaxy_map.html" target="_blank">Карта галактики</a>
-           | <a href ="./history/history.html" target="_blank">Истории</a>
+            &bull; <a href ="./parts/indiana_jones_ep_list.html" target="_blank">Эпизоды</a>
+            &bull; <a href ="./heroes/heroes.html" target="_blank">Герои</a>
+            &bull; <a href ="./galaxy_map/galaxy_map.html" target="_blank">Карта галактики</a>
+            &bull; <a href ="./history/history.html" target="_blank">Истории</a>
         </nav>
     </header>
-    <body bgcolor=#fff5e8 style="text-align: center">
-        <div>
-            <img 
-                width="400" 
-                height="260" 
+    <body class="body body_centred">
+            <img
+                class="body__main-img"
                 src="./assets/main-poster.jpg"
                 title="MainPoster"
                 alt="Main Poster"
-                style="border-radius: 50%"
             />
             <div>
                 <h1>
                     Raiders of the Lost Ark
                 </h1>
-                <img 
+                <img
+                    class="body__img-poster-part"
                     src="./assets/raidersLostArk/raiders_lost_ark_poster.jpg"
                     title="Raiders of the Lost Ark"
-                    style="border-radius: 10px"
                 />
                 <p>Известный археолог и специалист по оккультным наукам доктор Джонс
                 получает опасное задание от правительства США.</p>
@@ -48,18 +53,18 @@
                 Кадры из фильма
             </h2>
             <div>
-                <img 
-                    style="height:150px; border-radius: 10px" 
+                <img
+                    class="body__img-screen-shot"
                     src="./assets/raidersLostArk/teach-screen.jpeg"
                     title="screenshot"
                 />
                 <img 
-                    style="height:150px; border-radius: 10px" 
+                    class="body__img-screen-shot"
                     src="./assets/raidersLostArk/girl-screen.jpeg"
                     title="screenshot"
                 />
                 <img 
-                    style="height:150px; border-radius: 10px" 
+                    class="body__img-screen-shot"
                     src="./assets/raidersLostArk/catch-screen.jpg"
                     title="screenshot"
                 />
