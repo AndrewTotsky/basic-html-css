@@ -5,3 +5,27 @@
 .body-img-poster {
     border-radius: 10px
 }
+
+.feedback__input-name {
+    background-color: aqua;
+    background-color: transparent;
+    border-radius: 20px;
+    font-family: inherit;
+    font-size: 1em;
+    margin: 10px;
+    padding-left: 8px;
+    outline: none;
+	border: 1px solid #999;
+}
+
+.feedback__input-review {
+    width: 200px;
+    outline: none;
+    height: 50px;
+    border: 1px solid #999;
+    resize: none;
+}
+
+#text {
+    color: aqua;
+}

@@ -5,6 +5,7 @@
 .header__logo {
     width: 100px;
     height: 100px;
+    border-radius: 20%;
 }
 
 .menu {
@@ -17,6 +18,38 @@
 
 .body {
     background-color: #fff5e8;
-    background-image: url(./assets/599088.jpg);
+}
+
+body {
+    background-image: url(./assets/bkgrnd.jpg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1, h2, h3, p, b, footer {
+    color: white;
+    font-weight: 400;
+}
+
+a {
+    color: #FF512F;
+    font-family: Linotype;
+    padding-top: 6px;
+}
+
+li {
+    display: flex;
+}
+
+@font-face {
+    font-family: Linotype;
+    src: url(./font/Linotype.otf);
+}
+
+.feedback {
+    background-color: burlywood;
+    width: 20vw;
+    border-radius: 4px;
+    padding: 10px
 }
