@@ -16,6 +16,14 @@
     font-size: x-large;
 }
 
+.menu__curr-page {
+    font-style: italic;
+    font-size: larger;
+    font-variant: titling-caps;
+    font-weight: 500;
+    font-size: xx-large;
+}
+
 .body {
     background-color: #fff5e8;
 }
@@ -49,7 +57,7 @@ li {
 
 .feedback {
     background-color: burlywood;
-    width: 20vw;
+    width: 279px;
     border-radius: 4px;
     padding: 10px
 }
