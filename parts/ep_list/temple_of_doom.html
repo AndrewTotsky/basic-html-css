@@ -2,6 +2,8 @@
 <html>
     <head>
         <title>"Части Индиана Джонс"</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="../../styles/ep-styles.css">
@@ -55,31 +57,38 @@
             </b>
             <br>
          
-        <div>
-            <form class="feedback">
-                Оставить отзыв
-                <br>
-                <label for="name">Имя</label>
-                <input class="feedback__input-name" type="text" name="feedback" placeholder="Имя" id="name"/>
-                <br>
-                <label for="review">Отзыв</label>
-                <textarea class="feedback__input-review" id="review" name="feedback" placeholder="Рецензия к фильму..."></textarea>
-                <br>
-                <label for="feedback">Оценка</label>
-                <label for="1">1</label>
-                <input type="radio" value="1" name="feedback"/>
-                <label for="2">2</label>
-                <input type="radio" value="2" name="feedback"/>
-                <label for="3">3</label>
-                <input type="radio" value="3" name="feedback"/>
-                <label for="4">4</label>
-                <input type="radio" value="4" name="feedback"/>
-                <label for="5">5</label>
-                <input type="radio" value="5" name="feedback"/>
-                <br>
-                <input type="button" name="submit" value="Отправить"/>
-            </form>
-        </div>
+            <div>
+                <form class="feedback">
+                    Оставить отзыв
+                    <div class="form-group">
+                        <br>
+                        <label for="name">Имя</label>
+                        <input class="form-control" type="text" name="feedback" aria-describedby="emailHelp" id="name"/>
+                        <small id="emailHelp" class="form-text text-muted">Впишите свое имя</small>
+                        <br>
+                        <label for="review">Отзыв</label>
+                        <textarea class="form-control" id="review" name="feedback" placeholder="Рецензия к фильму..."></textarea>
+                        <br>
+                    </div>
+                    <div class="form-group">
+                        <label for="feedback">Оценка</label>
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label" for="1">1</label>
+                            <input class="form-check-input" type="radio" value="1" name="feedback"/>
+                            <label class="form-check-label" for="2">2</label>
+                            <input class="form-check-input" type="radio" value="2" name="feedback"/>
+                            <label class="form-check-label" for="3">3</label>
+                            <input class="form-check-input" type="radio" value="3" name="feedback"/>
+                            <label class="form-check-label" for="4">4</label>
+                            <input class="form-check-input" type="radio" value="4" name="feedback"/>
+                            <label class="form-check-label" for="5">5</label>
+                            <input class="form-check-input" type="radio" value="5" name="feedback"/>
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-primary">Отправить <i class="far fa-grin-wink"></i> </button>
+                    </div>
+                </form>
+            </div>
         <footer>
             <hr>
             Copyright &copy; 2018 Indiana Jones<br>

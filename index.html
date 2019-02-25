@@ -2,11 +2,25 @@
 <html>
     <head>
         <title>"Части Индиана Джонс"</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="./styles/base.css">
         <link rel="stylesheet" type="text/css" href="./styles/main-scr-style.css">
     </head>
+    <div
+        id="trigger"
+        class="pikachu"
+    >
+        <img
+        
+            src="./assets/pikachu.svg"
+            title="MainPoster"
+            alt="Main Poster"
+        />
+        <h6>DONT TOUCH!</h6>
+    </div>
+    <div id="bg" class="sdv"></div>
     <header class="header">
         <a href ="./index.html" target="_blank">
             <img class="header__logo"
@@ -24,52 +38,112 @@
         </nav>
     </header>
     <body class="body body_centred">
-            <img
-                class="body__main-img"
-                src="./assets/main-poster.jpg"
-                title="MainPoster"
-                alt="Main Poster"
-            />
-            <div>
-                <h1>
-                    Raiders of the Lost Ark
-                </h1>
-                <img
-                    class="body__img-poster-part"
-                    src="./assets/raidersLostArk/raiders_lost_ark_poster.jpg"
-                    title="Raiders of the Lost Ark"
-                />
-                <p>Известный археолог и специалист по оккультным наукам доктор Джонс
-                получает опасное задание от правительства США.</p>
+        <img
+            class="body__main-img"
+            src="./assets/main-poster.jpg"
+            title="MainPoster"
+            alt="Main Poster"
+        />
+        <div class="container">
+            <div class="body__row-center row">
+                <div class="min-width col-lg-1 col-3">
+                    <div>
+                        <h4 id="asd" >
+                            Raiders of the Lost Ark
+                        </h4>
+                        <img
+                            class="body__img-poster-part"
+                            src="./assets/raidersLostArk/raiders_lost_ark_poster.jpg"
+                            title="Raiders of the Lost Ark"
+                        />
+                        <p>Известный археолог доктор Джонс
+                        получает опасное задание от правительства США.</p>
+                    </div>
+                    <a
+                        target="_blank"
+                        href="https://www.youtube.com/watch?v=vdnA-ESWcPs"
+                    >
+                        <button type="button" class="btn btn-warning radius-20" >Смотреть</button>
+                    </a>
+                </div>
+
+                <div class="min-width col-lg-1 col-3">
+                    <div>
+                        <h4>
+                            Indiana Jones and the Temple of Doom
+                        </h4>
+                        <img
+                            class="body__img-poster-part"
+                            src="./assets/temple_of_doom_poster.jpg"
+                            title="Raiders of the Lost Ark"
+                        />
+                        <p>Джонс оказывается втянут в ужасную историю, связанную с
+                        древним культом, поклоняющимся богине смерти Кали.</p>
+                    </div>
+                    <a
+                        target="_blank"
+                        href="https://www.youtube.com/watch?v=vdnA-ESWcPs"
+                    >
+                        <button type="button" class="btn btn-warning radius-20" >Смотреть</button>
+                    </a>
+                </div>
+
+                <div class="min-width col-lg-1 col-3">
+                    <div>
+                        <h4>
+                            Indiana Jones and the Last Crusade
+                        </h4>
+                        <img
+                            class="body__img-poster-part"
+                            src="./assets/the_last_guardian_poster.jpg"
+                            title="Raiders of the Lost Ark"
+                        />
+                        <p>Нацисты вновь не дремлют — на этот раз они полны решимости найти Святой Грааль.</p>
+                    </div>
+                    <a
+                        target="_blank"
+                        href="https://www.youtube.com/watch?v=vdnA-ESWcPs"
+                    >
+                        <button type="button" class="btn btn-warning radius-20" >Смотреть</button>
+                    </a>
+                </div>
             </div>
-            <a
-                target="_blank"
-                href="https://www.youtube.com/watch?v=vdnA-ESWcPs"
-            >
-                <input 
-                    type="button"
-                    value="Смотреть"
-                />
-            </a>
             <h2>
                 Кадры из фильма
             </h2>
-            <div>
-                <img
-                    class="body__img-screen-shot"
-                    src="./assets/raidersLostArk/teach-screen.jpeg"
-                    title="screenshot"
-                />
-                <img 
-                    class="body__img-screen-shot"
-                    src="./assets/raidersLostArk/girl-screen.jpeg"
-                    title="screenshot"
-                />
-                <img 
-                    class="body__img-screen-shot"
-                    src="./assets/raidersLostArk/catch-screen.jpg"
-                    title="screenshot"
-                />
+            <div class="container">
+                <div class="body__row-center row">
+                    <img
+                        class="body__img-screen-shot col-lg-3 col-1"
+                        src="./assets/raidersLostArk/teach-screen.jpeg"
+                        title="screenshot"
+                    />
+                    <img
+                        class="body__img-screen-shot col-lg-3 col-1"
+                        src="./assets/raidersLostArk/girl-screen.jpeg"
+                        title="screenshot"
+                    />
+                    <img
+                        class="body__img-screen-shot col-lg-3 col-1"
+                        src="./assets/raidersLostArk/catch-screen.jpg"
+                        title="screenshot"
+                    />
+                    <img
+                        class="body__img-screen-shot col-lg-3 col-1"
+                        src="./assets/face-jones.jpeg"
+                        title="screenshot"
+                    />
+                    <img
+                        class="body__img-screen-shot col-lg-3 col-1"
+                        src="./assets/face-light.jpeg"
+                        title="screenshot"
+                    />
+                    <img
+                        class="body__img-screen-shot col-lg-3 col-1"
+                        src="./assets/cut-rope.jpeg"
+                        title="screenshot"
+                    />
+                </div>
             </div>
         <footer>
             <hr>
