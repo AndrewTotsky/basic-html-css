@@ -1,5 +1,14 @@
-.body_img {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px
+.body__img {
+    height: 100vh;
+    border-radius: 10px;
+    background-image: url(../assets/galaxy_map.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media screen and (max-width: 380px) {
+    .body__img {
+        background-image: url(../assets/kenpati.jpg);
+        background-size: contain;
+    }
 }

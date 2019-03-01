@@ -11,13 +11,15 @@
     <div
         id="trigger"
         class="pikachu"
+        onmouseover="document.getElementById('player').play()"
+        onmouseout="document.getElementById('player').pause()"
     >
         <img
-        
             src="./assets/pikachu.svg"
             title="MainPoster"
             alt="Main Poster"
         />
+        <audio id="player" preload="auto" src="./assets/dimon.mp3"></audio>
         <h6>DONT TOUCH!</h6>
     </div>
     <div id="bg" class="sdv"></div>

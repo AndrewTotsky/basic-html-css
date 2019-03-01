@@ -23,7 +23,7 @@
     font-variant: titling-caps;
     font-weight: 500;
     font-size: xx-large;
-    color: antiquewhite;
+    color: antiquewhite !important;
 }
 
 .body {
@@ -50,7 +50,6 @@ h1, h2, h3, p, b, footer {
 a {
     color: #FF512F;
     font-family: Linotype;
-    padding-top: 6px;
 }
 
 li {

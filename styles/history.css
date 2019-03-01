@@ -1,0 +1,9 @@
+.body__text {
+    display: none;
+}
+
+@media screen and (max-width: 560px) {
+    .body__text {
+        display: flex;
+    }
+}
