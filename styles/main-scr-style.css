@@ -3,16 +3,59 @@
 }
 
 .body__main-img {
-    border-radius: 50%;
-    width: 400px;
-    height: 260px;
+    border-radius: 20px;
+    width: 40%;
 }
 
 .body__img-poster-part {
-    border-radius: 10px
+    border-radius: 10px;
+    min-width: 230px;
+    min-height: 330px;
 }
 
 .body__img-screen-shot {
     height:150px;
     border-radius: 10px;
+    min-width: 340px;
+    width: 340px;
+}
+
+.body__row-center {
+    justify-content: center;
+}
+
+.min-width {
+    min-width: min-content;
+    margin: 4%;
+}
+
+.radius-20 {
+    border-radius: 20px;
+}
+
+h4 {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    min-height: 110px;
+}
+
+p {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 28px;
+    font-size: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    min-height: 140px;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(./font/Ubuntu/Ubuntu-Regular.ttf);
 }
