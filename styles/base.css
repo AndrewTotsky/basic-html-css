@@ -1,5 +1,8 @@
 .header {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header__logo {
@@ -10,20 +13,32 @@
 }
 
 .menu {
-    font-style: italic;
+    font-size: larger;
+    font-variant: titling-caps;
+    font-weight: 500;
+    font-size: x-large;
+    height: 50px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.menu__curr-page {
+    background-color: #FF7B03;
+    border-color: #FF7B03;
     font-size: larger;
     font-variant: titling-caps;
     font-weight: 500;
     font-size: x-large;
 }
 
-.menu__curr-page {
-    font-style: italic;
-    font-size: larger;
-    font-variant: titling-caps;
-    font-weight: 500;
-    font-size: xx-large;
-    color: antiquewhite !important;
+.trans-hover {
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgb(255, 125, 3, 1) 50%);
+    transition: background-position 0.5s;
+}
+
+.trans-hover:hover {
+    background-position: -100% 0;
 }
 
 .body {
@@ -48,8 +63,10 @@ h1, h2, h3, p, b, footer {
 }
 
 a {
-    color: #FF512F;
+    color: antiquewhite;
     font-family: Linotype;
+    padding: 5px;
+    border-radius: 2px;
 }
 
 li {
@@ -69,7 +86,6 @@ li {
 }
 
 #trigger {
-    font-size: 5vh;
     width: 50px;
     position: absolute;
     top: 0;

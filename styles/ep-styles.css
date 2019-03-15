@@ -29,3 +29,20 @@
 #text {
     color: aqua;
 }
+
+.form-control {
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    outline: none !important;
+    border-color: rgb(17, 0, 255);
+    box-shadow: 0 0 10px rgb(31, 64, 255);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+}

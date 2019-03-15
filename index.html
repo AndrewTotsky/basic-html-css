@@ -3,24 +3,23 @@
     <head>
         <title>"Части Индиана Джонс"</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="./styles/base.css">
         <link rel="stylesheet" type="text/css" href="./styles/main-scr-style.css">
     </head>
     <div
         id="trigger"
         class="pikachu"
-        onmouseover="document.getElementById('player').play()"
-        onmouseout="document.getElementById('player').pause()"
+
     >
+    <!-- onmouseover="document.getElementById('player').play()" -->
+    <!-- onmouseout="document.getElementById('player').pause()" -->
         <img
             src="./assets/pikachu.svg"
             title="MainPoster"
             alt="Main Poster"
         />
         <audio id="player" preload="auto" src="./assets/dimon.mp3"></audio>
-        <h6>DONT TOUCH!</h6>
+        DONT TOUCH!
     </div>
     <div id="bg" class="sdv"></div>
     <header class="header">
@@ -32,11 +31,11 @@
             ><br>
         </a>
         <nav class="menu">
-            <a class="menu__curr-page">Главная</a> 
-            <a href ="./parts/indiana_jones_ep_list.html" target="_blank">Эпизоды</a>
-            <a href ="./heroes/heroes.html" target="_blank">Герои</a>
-            <a href ="./galaxy_map/galaxy_map.html" target="_blank">Карта галактики</a>
-            <a href ="./history/history.html" target="_blank">Истории</a>
+            <a class="menu__curr-page trans-hover">Главная</a> 
+            <a class="trans-hover" href ="./parts/indiana_jones_ep_list.html" target="_blank">Эпизоды</a>
+            <a class="trans-hover" href ="./heroes/heroes.html" target="_blank">Герои</a>
+            <a class="trans-hover" href ="./galaxy_map/galaxy_map.html" target="_blank">Карта галактики</a>
+            <a class="trans-hover" href ="./history/history.html" target="_blank">Истории</a>
         </nav>
     </header>
     <body class="body body_centred">
@@ -48,9 +47,9 @@
         />
         <div class="container">
             <div class="body__row-center row">
-                <div class="min-width col-lg-1 col-3">
+                <div class="min-width">
                     <div>
-                        <h4 id="asd" >
+                        <h4>
                             Raiders of the Lost Ark
                         </h4>
                         <img
@@ -62,14 +61,15 @@
                         получает опасное задание от правительства США.</p>
                     </div>
                     <a
+                        class="body__btn-open-youtube"
                         target="_blank"
                         href="https://www.youtube.com/watch?v=vdnA-ESWcPs"
                     >
-                        <button type="button" class="btn btn-warning radius-20" >Смотреть</button>
+                        Смотреть
                     </a>
                 </div>
 
-                <div class="min-width col-lg-1 col-3">
+                <div class="min-width">
                     <div>
                         <h4>
                             Indiana Jones and the Temple of Doom
@@ -83,14 +83,15 @@
                         древним культом, поклоняющимся богине смерти Кали.</p>
                     </div>
                     <a
+                        class="body__btn-open-youtube"
                         target="_blank"
                         href="https://www.youtube.com/watch?v=vdnA-ESWcPs"
                     >
-                        <button type="button" class="btn btn-warning radius-20" >Смотреть</button>
+                        Смотреть
                     </a>
                 </div>
 
-                <div class="min-width col-lg-1 col-3">
+                <div class="min-width">
                     <div>
                         <h4>
                             Indiana Jones and the Last Crusade
@@ -103,49 +104,48 @@
                         <p>Нацисты вновь не дремлют — на этот раз они полны решимости найти Святой Грааль.</p>
                     </div>
                     <a
+                        class="body__btn-open-youtube"
                         target="_blank"
                         href="https://www.youtube.com/watch?v=vdnA-ESWcPs"
                     >
-                        <button type="button" class="btn btn-warning radius-20" >Смотреть</button>
+                        Смотреть
                     </a>
                 </div>
             </div>
             <h2>
                 Кадры из фильма
             </h2>
-            <div class="container">
-                <div class="body__row-center row">
-                    <img
-                        class="body__img-screen-shot col-lg-3 col-1"
-                        src="./assets/raidersLostArk/teach-screen.jpeg"
-                        title="screenshot"
-                    />
-                    <img
-                        class="body__img-screen-shot col-lg-3 col-1"
-                        src="./assets/raidersLostArk/girl-screen.jpeg"
-                        title="screenshot"
-                    />
-                    <img
-                        class="body__img-screen-shot col-lg-3 col-1"
-                        src="./assets/raidersLostArk/catch-screen.jpg"
-                        title="screenshot"
-                    />
-                    <img
-                        class="body__img-screen-shot col-lg-3 col-1"
-                        src="./assets/face-jones.jpeg"
-                        title="screenshot"
-                    />
-                    <img
-                        class="body__img-screen-shot col-lg-3 col-1"
-                        src="./assets/face-light.jpeg"
-                        title="screenshot"
-                    />
-                    <img
-                        class="body__img-screen-shot col-lg-3 col-1"
-                        src="./assets/cut-rope.jpeg"
-                        title="screenshot"
-                    />
-                </div>
+            <div class="body__container-screenshots">
+                <img
+                    class="body__img-screen-shot"
+                    src="./assets/raidersLostArk/teach-screen.jpeg"
+                    title="screenshot"
+                />
+                <img
+                    class="body__img-screen-shot"
+                    src="./assets/raidersLostArk/girl-screen.jpeg"
+                    title="screenshot"
+                />
+                <img
+                    class="body__img-screen-shot"
+                    src="./assets/raidersLostArk/catch-screen.jpg"
+                    title="screenshot"
+                />
+                <img
+                    class="body__img-screen-shot"
+                    src="./assets/face-jones.jpeg"
+                    title="screenshot"
+                />
+                <img
+                    class="body__img-screen-shot"
+                    src="./assets/face-light.jpeg"
+                    title="screenshot"
+                />
+                <img
+                    class="body__img-screen-shot"
+                    src="./assets/cut-rope.jpeg"
+                    title="screenshot"
+                />
             </div>
         <footer>
             <hr>
