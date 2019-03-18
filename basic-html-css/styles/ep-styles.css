@@ -1,0 +1,48 @@
+.body__ep-title {
+    text-align: center;
+}
+
+.body-img-poster {
+    border-radius: 10px
+}
+
+.feedback__input-name {
+    background-color: aqua;
+    background-color: transparent;
+    border-radius: 20px;
+    font-family: inherit;
+    font-size: 1em;
+    margin: 10px;
+    padding-left: 8px;
+    outline: none;
+	border: 1px solid #999;
+}
+
+.feedback__input-review {
+    width: 200px;
+    outline: none;
+    height: 50px;
+    border: 1px solid #999;
+    resize: none;
+}
+
+#text {
+    color: aqua;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    outline: none !important;
+    border-color: rgb(17, 0, 255);
+    box-shadow: 0 0 10px rgb(31, 64, 255);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+}

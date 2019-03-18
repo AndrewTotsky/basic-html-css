@@ -1,0 +1,118 @@
+.body_centred {
+    text-align: center;
+}
+
+.body__main-img {
+    border-radius: 20px;
+    width: 50vw;
+}
+
+.body__img-poster-part {
+    border-radius: 10px;
+    min-width: 230px;
+    min-height: 330px;
+}
+
+.body__img-screen-shot {
+    height:150px;
+    border-radius: 10px;
+    min-width: 340px;
+    width: 340px;
+    margin: 5px;
+}
+
+.body__row-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body__container-screenshots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.body__btn-open-youtube {
+    height: 27px;
+    width: 100px;
+    line-height: 27px;
+    color: black;
+    text-decoration: none;
+    text-underline-position: none;
+    display: inline-block;
+    background-image: linear-gradient(to right, #ff4d03 , #FF7B03);
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: UbuntuBold;
+    box-shadow: 1px 5px 25px rgba(255, 100, 0, 0.5);
+    position: relative;
+    transition: 0.5s;
+}
+
+/* .body__btn-open-youtube:visited {
+    background-color: rgba(86, 121, 255);
+    border-color: rgba(86, 121, 255);
+} */
+
+.body__btn-open-youtube:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  right: 15px;
+  transition: 0.6s;
+}
+
+.body__btn-open-youtube:hover {
+  padding-right: 15px;
+  box-shadow: 0px 0px 50px rgb(255, 100, 0);
+}
+
+.body__btn-open-youtube:hover:after {
+  opacity: 1;
+}
+
+@media screen and (max-width: 930px) {
+    .body__row-center {
+        flex-direction: column;
+    }
+    .min-width {
+        margin: 4%;
+        max-width: 500px;
+    }
+}
+
+.min-width {
+    margin: 4%;
+    max-width: 300px;
+    flex: none;
+}
+
+
+h4 {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: Ubuntu;
+    line-height: 28px;
+    font-size: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(./font/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: UbuntuBold;
+    src: url(./font/Ubuntu/Ubuntu-Bold.ttf);
+}

@@ -1,0 +1,150 @@
+.header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__logo {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    border-radius: 20%;
+}
+
+.menu {
+    font-size: larger;
+    font-variant: titling-caps;
+    font-weight: 500;
+    font-size: x-large;
+    height: 50px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.menu__curr-page {
+    background-color: #FF7B03;
+    border-color: #FF7B03;
+    font-size: larger;
+    font-variant: titling-caps;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.trans-hover {
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgb(255, 125, 3, 1) 50%);
+    transition: background-position 0.5s;
+}
+
+.trans-hover:hover {
+    background-position: -100% 0;
+}
+
+.body {
+    background-color: #fff5e8;
+}
+
+.body__poster {
+    height: 150px;
+    border-radius: 10px;
+}
+
+body {
+    background-image: url(../assets/bkgrnd.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1, h2, h3, p, b, footer {
+    color: white;
+    font-weight: 400;
+}
+
+a {
+    color: antiquewhite;
+    font-family: Linotype;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+li {
+    display: flex;
+}
+
+@font-face {
+    font-family: Linotype;
+    src: url(./font/Linotype.otf);
+}
+
+.feedback {
+    background-color: burlywood;
+    width: 279px;
+    border-radius: 4px;
+    padding: 10px
+}
+
+#trigger {
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+#trigger:hover ~ #bg {
+    background-color: #333;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    animation: phone-outer 500ms infinite;
+}
+
+.pikachu {
+    font-size: 15px;
+    color: #fff5e8;
+}
+
+@keyframes phone-outer {
+    0% {
+        background-color: #AD310B;
+    }
+    10% {
+        background-color: red;
+    }
+    20% {
+        background-color: yellow;
+    }
+    30% {
+        background-color: green;
+    }
+    40% {
+        background-color: black;
+    }
+    50% {
+        background-color: blue;
+    }
+    60% {
+        background-color: ghostwhite;
+    }
+    70% {
+        background-color: rebeccapurple;
+    }
+    80% {
+        background-color: red;
+    }
+    90% {
+        background-color: greenyellow;
+    }
+    100% {
+        background-color: hotpink;
+    }
+  }
+
+
